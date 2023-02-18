@@ -39,7 +39,7 @@ header a:hover {
 
 section p {
     font-family: 'Sriracha', cursive;
-    font-size: 30px;
+    font-size: clamp(16px, 16px + 1vh, 70px);
     line-height: 60px;
     padding: 50px;
 }
@@ -88,3 +88,4 @@ footer a:hover {
     color: #ffda6c;
     transition-duration: 0.3s;
 }
+
