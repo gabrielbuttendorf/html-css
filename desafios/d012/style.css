@@ -7,22 +7,25 @@
     margin: 0;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 header {
     background-color: black;
     color: white;
     text-align: center;
-    min-height: 300px;
 }
 
 header h1 {
-    padding-top: 100px;
+    padding-top: 50px;
     font-family: 'Passion One', cursive;
     font-weight: bold;
-    font-size: 5.5em;
+    font-size: 8vw;
 }
 
 header p {
-    padding-top: 10px;
+    padding-bottom: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
 }
@@ -33,19 +36,33 @@ header a {
 }
 
 header a:hover {
-    color: #cfdbc3;
+    color: #969E82;
     transition-duration: 0.3s;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 
 section p {
     font-family: 'Sriracha', cursive;
-    font-size: clamp(16px, 16px + 1vh, 70px);
-    line-height: 60px;
-    padding: 50px;
+    font-size: 3.5vw;
+    line-height: 7vw;
 }
 
 section.normal {
     background-color: white;
+}
+
+
+section.imagem{
+    background-position: center right;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 0px 6px 10px rgba(0, 0, 0, 0.568);
 }
 
 section.imagem p {
@@ -54,11 +71,7 @@ section.imagem p {
     display: inline-block;
     padding: 20px;
     margin: 50px 30px;
-}
-
-section.imagem{
-    background-position: center right;
-    background-attachment: fixed;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.397);
 }
 
 section#img1 {
@@ -68,6 +81,42 @@ section#img1 {
 
 section#img2 {
     background-image: url(imagens/background002.jpg);
+}
+
+aside {
+    background-color: #969E82;
+    margin: 40px 30px;
+    padding: 20px;
+    padding-bottom: 60%;
+    border-radius: 0px 0px 15px 0px;
+
+    position: relative;
+}
+
+aside h2{
+    background-color: #4f5343;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 2.5vw;
+    padding: 10px;
+    margin: -40px -20px 0px -20px;
+    border-radius: 15px 0px 0px 0px;
+}
+
+aside > iframe {
+    width: 80%;
+    height: 600px;
+
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 60%;
+    height: 60%;
 }
 
 footer {
@@ -88,4 +137,3 @@ footer a:hover {
     color: #ffda6c;
     transition-duration: 0.3s;
 }
-
