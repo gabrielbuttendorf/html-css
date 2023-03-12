@@ -3,4 +3,12 @@
 
 <a href="https://gabrielbuttendorf.github.io/html-css/desafios/d005/">Quem sou eu?</a>
 
-<a href="https://gabrielbuttendorf.github.io/html-css/exercicios/ex026/mq005/index.html">Media Query</a>
+<a href="https://gabrielbuttendorf.github.io/projeto-android/">Projeto Android</a>
+
+<a href="https://gabrielbuttendorf.github.io/projeto-cordel/">Projeto Cordel</a>
+
+<a href="https://gabrielbuttendorf.github.io/projeto-social/">Projeto Social</a>
+
+<a href="https://gabrielbuttendorf.github.io/projeto-flamengo/">Projeto Flamengo</a>
+
+<a href="https://gabrielbuttendorf.github.io/projeto-login/">Projeto Login</a>
